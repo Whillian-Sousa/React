@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+.contact-us{
+    background-image: linear-gradient(to right, blueviolet, violet );
+    color: wheat;
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+form{
+    padding: 40px;
+}
+
+.inputField{
+    padding: 10px;
+}
+.inputField label{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: .25rem;
+}
+.inputField input{
+    width: 320px;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 4px;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-image: linear-gradient(to right, blueviolet, violet );
+    margin: 30px 0;
+}
+button{
+    padding: 8px 25px;
+    font-size: 18px;
+    background: none;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .6s;
+}
+button:hover{
+    background-image: linear-gradient(to right, blueviolet, violet );
+    color: wheat;
+    border: 1px solid white;     
+}
+.invalid{
+    border: 1px solid red;
+}
+
+.error-hidden{
+    display: none;
+}
+.thanks{
+    padding: 40px;
+    text-align: center;
+    color: blueviolet;
+}
